@@ -1,5 +1,7 @@
 import React from 'react';
 
-const Cell: React.FC = () => <></>;
+import { Wrapper } from './Cell.styles';
+
+const Cell: React.FC = () => (<Wrapper>1</Wrapper>);
 
 export default Cell;
